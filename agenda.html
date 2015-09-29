@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/example.css">
+		<script src="scripts/jquery-1.11.3.js"></script>
+		<script src="scripts/myscripts.js"></script>
+	</head>
+
+	<body>
+		<h2>To do list</h2>
+		<div class="well bs-component">
+			<img src="images/agenda.jpg">
+			<img src="images/list.jpg">
+			<img src="images/todolist.jpg">
+			<form class="form-horizontal">
+				<fieldset>	
+					<legend>Agenda</legend>
+					<div class="form-group">
+						<label for="inputActivity" class="col-lg-2 control-label">Activity</label>
+						<div class="col-lg-10">
+							<input type="text" class="form-control" id="inputActivity">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="inputDate" class="col-lg-2 control-label">Date</label>
+						<div class="col-lg-10">
+							<input type="text" class="form-control" id="inputDate">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="inputTime" class="col-lg-2 control-label">Time</label>
+						<div class="col-lg-10">
+							<input type="text" class="form-control" id="inputTime">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="AditionalNotes" class="col-lg-2 control-label">Notes</label>
+						<div class="col-lg-10">
+							<textarea class="form-control" rows="3" id="AddNotes"></textarea>
+							<span class="help-block">
+								"It is useful to write down everything about this important activity for us to dont forget bring neccesary stuff or tell something to someone "
+							</span>
+							<button type="submit" class="btn btn-primary" >Submit</button>
+
+						</div>
+					</div>
+				</fieldset>	
+			</form>
+		</div>
+			<ul class="activities"></ul>
+	</body>
+
+</html>
